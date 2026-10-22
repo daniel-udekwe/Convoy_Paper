@@ -1,0 +1,144 @@
+```
+scenario1_ideal / baseline   NMPC solve: 24.4 ms mean, 346.9 ms max
+         Error               MSE     RMSE      MAE     Peak
+Follower Lateral (m)      0.0017   0.0416   0.0155   0.2377
+Follower Yaw (rad)        0.0025   0.0504   0.0348   0.2577
+Follower Speed (m/s)      0.1312   0.3622   0.2438   1.2181
+Follower Distance (m)     0.8660   0.9306   0.6399   2.6069
+Leader   Lateral (m)      0.0000   0.0062   0.0027   0.0331
+Leader   Yaw (rad)        0.0011   0.0336   0.0261   0.0871
+Leader   Speed (m/s)      0.0124   0.1114   0.0604   0.3829
+```
+
+```
+scenario1_ideal / ff   NMPC solve: 23.7 ms mean, 175.0 ms max
+         Error               MSE     RMSE      MAE     Peak
+Follower Lateral (m)      0.0002   0.0147   0.0061   0.0838
+Follower Yaw (rad)        0.0011   0.0336   0.0255   0.1257
+Follower Speed (m/s)      0.0083   0.0909   0.0541   0.3350
+Follower Distance (m)     0.0076   0.0872   0.0681   0.2568
+Leader   Lateral (m)      0.0000   0.0062   0.0027   0.0331
+Leader   Yaw (rad)        0.0011   0.0336   0.0261   0.0871
+Leader   Speed (m/s)      0.0124   0.1114   0.0604   0.3829
+```
+
+```
+scenario1_ideal / ff_preview   NMPC solve: 21.5 ms mean, 45.4 ms max
+         Error               MSE     RMSE      MAE     Peak
+Follower Lateral (m)      0.0001   0.0100   0.0049   0.0393
+Follower Yaw (rad)        0.0010   0.0313   0.0242   0.0627
+Follower Speed (m/s)      0.0084   0.0916   0.0587   0.3091
+Follower Distance (m)     0.0081   0.0899   0.0689   0.2460
+Leader   Lateral (m)      0.0000   0.0047   0.0017   0.0320
+Leader   Yaw (rad)        0.0011   0.0335   0.0260   0.0747
+Leader   Speed (m/s)      0.0001   0.0100   0.0038   0.0695
+```
+
+```
+scenario1_ideal / ff_preview_plan   NMPC solve: 22.3 ms mean, 60.0 ms max
+         Error               MSE     RMSE      MAE     Peak
+Follower Lateral (m)      0.0001   0.0101   0.0049   0.0393
+Follower Yaw (rad)        0.0010   0.0313   0.0242   0.0627
+Follower Speed (m/s)      0.0084   0.0916   0.0587   0.3091
+Follower Distance (m)     0.0081   0.0899   0.0689   0.2457
+Leader   Lateral (m)      0.0000   0.0047   0.0017   0.0320
+Leader   Yaw (rad)        0.0011   0.0335   0.0260   0.0747
+Leader   Speed (m/s)      0.0001   0.0100   0.0038   0.0695
+```
+
+```
+scenario1_ideal / gap_nmpc_nopreview   NMPC solve: 21.9 ms mean, 63.2 ms max
+         Error               MSE     RMSE      MAE     Peak
+Follower Lateral (m)      0.0001   0.0097   0.0037   0.0461
+Follower Yaw (rad)        0.0010   0.0317   0.0247   0.0666
+Follower Speed (m/s)      0.0004   0.0194   0.0109   0.0743
+Follower Distance (m)     0.0002   0.0156   0.0106   0.0478
+Leader   Lateral (m)      0.0000   0.0047   0.0017   0.0320
+Leader   Yaw (rad)        0.0011   0.0335   0.0260   0.0747
+Leader   Speed (m/s)      0.0001   0.0100   0.0038   0.0695
+```
+
+```
+scenario1_ideal / gap_nmpc   NMPC solve: 22.6 ms mean, 75.6 ms max
+         Error               MSE     RMSE      MAE     Peak
+Follower Lateral (m)      0.0000   0.0062   0.0026   0.0292
+Follower Yaw (rad)        0.0010   0.0315   0.0244   0.0629
+Follower Speed (m/s)      0.0004   0.0200   0.0112   0.0771
+Follower Distance (m)     0.0002   0.0157   0.0105   0.0498
+Leader   Lateral (m)      0.0000   0.0047   0.0017   0.0320
+Leader   Yaw (rad)        0.0011   0.0335   0.0260   0.0747
+Leader   Speed (m/s)      0.0001   0.0100   0.0038   0.0695
+```
+
+```
+scenario2_gnss_like / baseline   NMPC solve: 26.5 ms mean, 267.9 ms max
+         Error               MSE     RMSE      MAE     Peak
+Follower Lateral (m)      0.0055   0.0743   0.0372   0.4537
+Follower Yaw (rad)        0.0040   0.0635   0.0388   0.3372
+Follower Speed (m/s)      0.3286   0.5732   0.4162   1.4126
+Follower Distance (m)     1.4782   1.2158   0.8111   3.5298
+Leader   Lateral (m)      0.0004   0.0204   0.0143   0.0655
+Leader   Yaw (rad)        0.0012   0.0353   0.0266   0.1189
+Leader   Speed (m/s)      0.0412   0.2029   0.1433   0.4712
+```
+
+```
+scenario2_gnss_like / ff   NMPC solve: 24.7 ms mean, 53.0 ms max
+         Error               MSE     RMSE      MAE     Peak
+Follower Lateral (m)      0.0037   0.0611   0.0320   0.3005
+Follower Yaw (rad)        0.0030   0.0551   0.0337   0.2698
+Follower Speed (m/s)      0.1112   0.3334   0.2069   1.0681
+Follower Distance (m)     0.0786   0.2804   0.1957   0.9190
+Leader   Lateral (m)      0.0004   0.0204   0.0143   0.0655
+Leader   Yaw (rad)        0.0012   0.0353   0.0266   0.1189
+Leader   Speed (m/s)      0.0412   0.2029   0.1433   0.4712
+```
+
+```
+scenario2_gnss_like / ff_preview   NMPC solve: 25.3 ms mean, 59.0 ms max
+         Error               MSE     RMSE      MAE     Peak
+Follower Lateral (m)      0.0030   0.0551   0.0249   0.3154
+Follower Yaw (rad)        0.0017   0.0416   0.0227   0.2709
+Follower Speed (m/s)      0.1026   0.3203   0.2131   1.0123
+Follower Distance (m)     0.0853   0.2921   0.2221   0.7763
+Leader   Lateral (m)      0.0001   0.0093   0.0074   0.0251
+Leader   Yaw (rad)        0.0013   0.0355   0.0265   0.1631
+Leader   Speed (m/s)      0.0004   0.0210   0.0098   0.1119
+```
+
+```
+scenario2_gnss_like / ff_preview_plan   NMPC solve: 25.1 ms mean, 61.6 ms max
+         Error               MSE     RMSE      MAE     Peak
+Follower Lateral (m)      0.0030   0.0550   0.0247   0.3126
+Follower Yaw (rad)        0.0017   0.0416   0.0228   0.2684
+Follower Speed (m/s)      0.1026   0.3203   0.2131   1.0105
+Follower Distance (m)     0.0853   0.2921   0.2221   0.7753
+Leader   Lateral (m)      0.0001   0.0093   0.0074   0.0251
+Leader   Yaw (rad)        0.0013   0.0355   0.0265   0.1631
+Leader   Speed (m/s)      0.0004   0.0210   0.0098   0.1119
+```
+
+```
+scenario2_gnss_like / gap_nmpc_nopreview   NMPC solve: 23.8 ms mean, 77.8 ms max
+         Error               MSE     RMSE      MAE     Peak
+Follower Lateral (m)      0.0002   0.0157   0.0097   0.0756
+Follower Yaw (rad)        0.0006   0.0247   0.0175   0.0795
+Follower Speed (m/s)      0.0014   0.0368   0.0239   0.1283
+Follower Distance (m)     0.0005   0.0233   0.0167   0.0594
+Leader   Lateral (m)      0.0001   0.0093   0.0074   0.0251
+Leader   Yaw (rad)        0.0013   0.0355   0.0265   0.1631
+Leader   Speed (m/s)      0.0004   0.0210   0.0098   0.1119
+```
+
+```
+scenario2_gnss_like / gap_nmpc   NMPC solve: 24.0 ms mean, 108.9 ms max
+         Error               MSE     RMSE      MAE     Peak
+Follower Lateral (m)      0.0001   0.0077   0.0047   0.0329
+Follower Yaw (rad)        0.0006   0.0239   0.0169   0.0706
+Follower Speed (m/s)      0.0015   0.0388   0.0253   0.1315
+Follower Distance (m)     0.0006   0.0236   0.0169   0.0615
+Leader   Lateral (m)      0.0001   0.0093   0.0074   0.0251
+Leader   Yaw (rad)        0.0013   0.0355   0.0265   0.1631
+Leader   Speed (m/s)      0.0004   0.0210   0.0098   0.1119
+```
+

@@ -1,0 +1,4 @@
+NMPC on the training paths: mean episode return 282.9, reward per step 0.9926
+SAC seed 0: 1366 episodes; last-100 mean return 276.9, reward/step 0.9699
+SAC seed 1: 1370 episodes; last-100 mean return 273.0, reward/step 0.9594
+saved /home/claude/convoy_nmpc/results/figures/rl_reward_curve.png

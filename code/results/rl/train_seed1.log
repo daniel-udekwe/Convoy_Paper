@@ -1,0 +1,16 @@
+[sac_seed1]   20000 steps   5.6 min  val return   288.7  gap 0.123  lat 0.058  fails 0  <- best
+[sac_seed1]   40000 steps  13.2 min  val return   294.7  gap 0.085  lat 0.042  fails 0  <- best
+[sac_seed1]   60000 steps  20.7 min  val return   296.2  gap 0.067  lat 0.039  fails 0  <- best
+[sac_seed1]   80000 steps  28.3 min  val return   297.6  gap 0.060  lat 0.034  fails 0  <- best
+[sac_seed1]  100000 steps  36.0 min  val return   299.0  gap 0.044  lat 0.023  fails 0  <- best
+[sac_seed1]  120000 steps  43.8 min  val return   299.0  gap 0.047  lat 0.022  fails 0
+[sac_seed1]  140000 steps  51.2 min  val return   299.5  gap 0.036  lat 0.021  fails 0  <- best
+[sac_seed1]  160000 steps  58.8 min  val return   299.3  gap 0.039  lat 0.026  fails 0
+[sac_seed1]  180000 steps  66.5 min  val return   299.2  gap 0.041  lat 0.026  fails 0
+[sac_seed1]  200000 steps  74.1 min  val return   298.5  gap 0.042  lat 0.033  fails 0
+[sac_seed1]  220000 steps  81.8 min  val return   299.3  gap 0.040  lat 0.023  fails 0
+[sac_seed1]  240000 steps  89.5 min  val return   298.7  gap 0.047  lat 0.023  fails 0
+[sac_seed1]  260000 steps  97.2 min  val return   298.6  gap 0.047  lat 0.025  fails 0
+[sac_seed1]  280000 steps 104.7 min  val return   297.4  gap 0.059  lat 0.031  fails 0
+[sac_seed1]  300000 steps 112.3 min  val return   295.3  gap 0.090  lat 0.034  fails 0
+[sac_seed1] done

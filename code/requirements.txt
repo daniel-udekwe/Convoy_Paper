@@ -1,0 +1,9 @@
+# core simulation, NMPC and figures
+casadi>=3.6
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+# RL baseline only (scripts/rl_*.py)
+torch>=2.0
+stable-baselines3>=2.3
+gymnasium>=0.29
